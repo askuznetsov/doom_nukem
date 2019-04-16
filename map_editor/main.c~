@@ -1,0 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: okuznets <okuznets@student.unit.ua>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/04/12 18:34:03 by okuznets          #+#    #+#             */
+/*   Updated: 2019/04/13 18:02:46 by okuznets         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+#include <header.h>
+
+int		main(int argc, char **argv)
+{
+	t_general	general;
+
+	if (argc == 4)
+		ac_processing(&general, argv);//to write ac_4
+	return (0);
+}
