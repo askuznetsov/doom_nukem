@@ -27,7 +27,8 @@ int		main(int argc, char **argv)
 	general_setting(&general);
 	if (SDL_Init(SDL_INIT_VIDEO) == 0)
 	{
-		init_sdl(&general);//to write init_sdl
+		init_sdl(&general);
+		loop(global);
 	}
 	return (0);
 }

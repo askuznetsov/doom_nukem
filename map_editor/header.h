@@ -70,6 +70,7 @@ typedef struct		s_general
 	TTF_Font		*font;
 	SDL_Bool		done;
 	SDL_Event		event;
+	int             drawing;
 	int				pos;
 	int				current_texture;
 	int				x1;
