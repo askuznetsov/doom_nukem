@@ -6,3 +6,5 @@ ON or Off shadow
     T;
 Pause
     P;
+speed up 
+    hold shift;
