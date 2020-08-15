@@ -1,3 +1,11 @@
+# Doom Nukem
+
+Upgraded wolf3D
+
+# How to install
+
+Just clone and make
+
 # wolfCoolStock
 
 move 
