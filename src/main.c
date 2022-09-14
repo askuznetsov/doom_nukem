@@ -20,7 +20,8 @@ void	ft_init_all(t_wolf *wolf)
 					SDL_WINDOWPOS_CENTERED,
 					SDL_WINDOWPOS_CENTERED, WIDTH,
 					HEIGHT, SDL_WINDOW_RESIZABLE
-					| SDL_WINDOW_SHOWN)))
+					| SDL_WINDOW_SHOWN
+					| SDL_WINDOW_FULLSCREEN_DESKTOP)))
 		ft_error(3, wolf);
 	if (!(wolf->sdl.ren = SDL_CreateRenderer(wolf->sdl.win, -1,
 					SDL_RENDERER_ACCELERATED
